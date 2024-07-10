@@ -171,6 +171,7 @@ text-align: center;
   width: 80%;
   margin-left:140px ;
   gap: 30px;
+ 
   
   
 }
@@ -179,10 +180,29 @@ text-align: center;
 .skillls1{
   padding: 40px ;
   border: 20px;
-  border-radius: ;
-  background-color: rgb(228, 230, 229);
+  border-radius: 13px;
+  background-color: #f5f3f3;
   
 }
+
+
+.skillls2{
+  padding: 40px ;
+  border: 20px;
+  border-radius: 13px;
+  background-color: #eff3fb;
+  
+}
+
+.skillls3{
+  padding: 40px ;
+  border: 20px;
+  border-radius: 13px ;
+  background-color: #fbfce4;
+  
+}
+
+
 
 .skillls-title{
   font-size: 20px;
