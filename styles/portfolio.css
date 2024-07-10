@@ -248,10 +248,36 @@ text-align: center;
  
 }
 
-.cta1 input{
-  padding: 12px;
-  /* margin: 20px; */
-  width: 25%;
-  border-radius: 10px;
-  justify-content: space-between;
+.search-field{
+  height: 40px;
+  padding: 10px;
+  border: none;
+  border-radius: 13px;
+  outline: none;
+  font-size: 20px;
+
 }
+
+.business{
+  width: 600px;
+}
+
+.search-btn{
+  height: 60px;
+  width: 150px;
+  border: none;
+  border-radius:13px ;
+  font-size: 23px;
+}
+
+   .commits{
+  font-size: 18px ;
+  font-weight: 800 ;
+  color: #181818 ;
+  margin: 10px 35px 0 136px;
+  text-align: justify;
+  background-image: rgb(121, 61, 61);
+}
+
+
+
