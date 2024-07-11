@@ -1,5 +1,7 @@
 
-
+:root{
+  --azeretMono: "Azeret Mono", monospace;
+}
 .azeret-mono-normal {
   font-family: "Azeret Mono", monospace;
   font-optical-sizing: auto;
@@ -41,7 +43,6 @@
  text-align: center;
 margin-block: 135px;
 
-
 }
 
 .text-book h1{
@@ -54,13 +55,9 @@ text-align: center;
 
 }
 
-.text-book p{
-  margin:0 98px 0 120px;
-  font-size: 14px;
-  color: #0D1321;
-}
 
 .btn-primary{
+  font-family: var(--azeretMono);
   background-color: black;
   font-weight: 600;
   font-size: 20px;
@@ -71,16 +68,22 @@ text-align: center;
   margin-block: 55px;
 }
 
+.btnn-primary{
+  font-family: var(--azeretMono);
+  font-weight: 600;
+  font-size: 15px;
+}
+
 .about-secondary-bg{
   background-color: #f9f6f4;
   margin-block: 125px;
   text-align: center;
-  padding: 0 20px 0  25px ;
+  padding: 70px ;
   margin-top: 100px;
   margin-bottom: 100px;
   margin-right: 100px;
-  margin-left: 80px
-  
+  margin-left: 80px;
+  border-radius: 16px;
 }
 
 .section-title{
@@ -101,17 +104,40 @@ text-align: center;
     margin-left: 90px;
 }
 
-.img-set{
-  padding-left: 650px;
+/* why web development section */
+.development{
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  text-align: left;
+  margin-bottom: 20px;
+  /* background: linear-gradient(to right, rgba(225,225,225), rgba(225,225,225,0)100%); */
+  border-radius: 16px;
+  padding: 20px;
 }
-
-.development-title{
-  /* padding-right: 550px; */
-  
-  padding-top: 5px;
-  padding-right: 970px;
-  padding-bottom: 5px;
-  padding-left: 180px;
+.development-details{
+  width: 70%;
+}
+.development-details h4{
+  font-family: var(--azeretMono);
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 18px;
+}
+.development-details p{
+  font-family: var(--azeretMono);
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 18px;
+  opacity: 0.7;
+}
+.development-details button{
+  padding: 10px 24px;
+  border: 1px solid rgba(0,0,0,0.4);
+}
+.development-image{
+  width: 30%;
 }
 
 .section-titles{
@@ -270,13 +296,15 @@ text-align: center;
   font-size: 23px;
 }
 
-   .commits{
+   .commits {
   font-size: 18px ;
   font-weight: 800 ;
   color: #181818 ;
   margin: 10px 35px 0 136px;
   text-align: justify;
-  background-image: rgb(121, 61, 61);
+  background-color:  rgb(245, 240, 240);
+  justify-content: space-between;
+  display: flex;
 }
 
 
